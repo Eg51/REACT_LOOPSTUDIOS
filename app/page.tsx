@@ -22,9 +22,24 @@ export default function Home() {
           that bind to their brand.
         </p>
         <p className="flex text-center justify-center text-[black]
-          text-[30px] pt-4 pl-11 pr-11 pb-10">
+          text-[30px] pt-4 pl-11 pr-11 pb-14">
           OUR CREATIONS
         </p>
+        <img src='/images/mobile/image-deep-earth.jpg'
+          alt='images/mobile/image-deep-earth'
+          className='bg-auto pb-9'/>
+
+        <img src='/images/mobile/image-deep-earth.jpg'
+          alt='images/mobile/image-deep-earth'
+          className='bg-auto pb-9 '/>
+        
+        <img src='/images/mobile/image-deep-earth.jpg'
+          alt='images/mobile/image-deep-earth'
+          className='bg-auto pb-9'/>
+
+        <img src='/images/mobile/image-deep-earth.jpg'
+          alt='images/mobile/image-deep-earth'
+          className='bg-auto pb-9'/>
       </div>
     </div>
   );
