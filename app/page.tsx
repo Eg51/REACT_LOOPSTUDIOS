@@ -22,40 +22,40 @@ export default function Home() {
           that bind to their brand.
         </p>
         <p className="flex text-center justify-center text-[black]
-          text-[30px] pt-4 pl-11 pr-11 pb-14">
+          text-[30px] pt-4 pl-11 pr-11 pb-5">
           OUR CREATIONS
         </p>
         <img src='/images/mobile/image-deep-earth.jpg'
           alt='images/mobile/image-deep-earth'
-          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+          className='bg-auto pb-1 pl-5 p-5 h-50 w-full'/>
 
         <img src='/images/mobile/image-night-arcade.jpg'
           alt='image-night-arcade'
-          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+          className='bg-auto pb-6 pl-5 p-5 h-50 w-full'/>
         
         <img src='/images/mobile/image-soccer-team.jpg'
           alt='image-soccer-team'
-          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+          className='bg-auto pb-1 pl-5 p-5 h-50 w-full'/>
 
         <img src='/images/mobile/image-grid.jpg'
           alt='image-grid'
-          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+          className='bg-auto pb-1 pl-5 p-5 h-50 w-full'/>
 
          <img src='/images/mobile/image-from-above.jpg'
           alt='image-from-above'
-          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+          className='bg-auto pb-1 pl-5 p-5 h-50 w-full'/>
 
         <img src='/images/mobile/image-pocket-borealis.jpg'
           alt='image-pocket-borealis'
-          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+          className='bg-auto pb-1 pl-5 p-5 h-50 w-full'/>
 
         <img src='/images/mobile/image-curiosity.jpg'
           alt='image-curiousity'
-          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+          className='bg-auto pb-1 pl-5 p-5 h-50 w-full'/>
 
         <img src='/images/mobile/image-fisheye.jpg'
           alt='image-fisheye'
-          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+          className='bg-auto pb-1 pl-5 p-5 h-50 w-full'/>
       </div>
     </div>
   );
