@@ -55,7 +55,18 @@ export default function Home() {
 
         <img src='/images/mobile/image-fisheye.jpg'
           alt='image-fisheye'
-          className='bg-auto pb-1 pl-5 p-5 h-50 w-full'/>
+          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+        
+        <div className="flex items-center justify-center">
+          <button className="flex items-center justify-center
+          bg-white text-center border-2 border-gray-900 p-2 w-47">
+            SEE ALL
+          </button>
+        </div>
+
+        <div className="">
+
+        </div>
       </div>
     </div>
   );
