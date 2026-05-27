@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex items-ccenter justify-center pb-18">
-      <div className="flex flex-col">
+      <div className="flex flex-col h-auto w-full">
         <img src="/images/mobile/image-hero.jpg" className="bg-auto pb-18"/>
         <img src="/images/mobile/image-interactive.jpg" alt="interactive_image"
         className="flex pt-5 pl-6 pr-6 pb-"/>
@@ -27,19 +27,35 @@ export default function Home() {
         </p>
         <img src='/images/mobile/image-deep-earth.jpg'
           alt='images/mobile/image-deep-earth'
-          className='bg-auto pb-9'/>
+          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
 
-        <img src='/images/mobile/image-deep-earth.jpg'
-          alt='images/mobile/image-deep-earth'
-          className='bg-auto pb-9 '/>
+        <img src='/images/mobile/image-night-arcade.jpg'
+          alt='image-night-arcade'
+          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
         
-        <img src='/images/mobile/image-deep-earth.jpg'
-          alt='images/mobile/image-deep-earth'
-          className='bg-auto pb-9'/>
+        <img src='/images/mobile/image-soccer-team.jpg'
+          alt='image-soccer-team'
+          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
 
-        <img src='/images/mobile/image-deep-earth.jpg'
-          alt='images/mobile/image-deep-earth'
-          className='bg-auto pb-9'/>
+        <img src='/images/mobile/image-grid.jpg'
+          alt='image-grid'
+          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+
+         <img src='/images/mobile/image-from-above.jpg'
+          alt='image-from-above'
+          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+
+        <img src='/images/mobile/image-pocket-borealis.jpg'
+          alt='image-pocket-borealis'
+          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+
+        <img src='/images/mobile/image-curiosity.jpg'
+          alt='image-curiousity'
+          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
+
+        <img src='/images/mobile/image-fisheye.jpg'
+          alt='image-fisheye'
+          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
       </div>
     </div>
   );
