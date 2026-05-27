@@ -1,9 +1,10 @@
 import { Fullscreen } from "@boxicons/react";
 import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="flex items-ccenter justify-center pb-18">
+    <div className="flex items-ccenter justify-center">
       <div className="flex flex-col h-auto w-full">
         <img src="/images/mobile/image-hero.jpg" className="bg-auto pb-18"/>
         <img src="/images/mobile/image-interactive.jpg" alt="interactive_image"
@@ -58,14 +59,25 @@ export default function Home() {
           className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
         
         <div className="flex items-center justify-center">
-          <button className="flex items-center justify-center
-          bg-white text-center border-2 border-gray-900 p-2 w-47">
+          <Link href={'https://www.google.com/search'}>
+             <button className="flex items-center justify-center
+             bg-white text-center border-2 border-gray-900
+             cursor-pointer p-2 w-47">
             SEE ALL
           </button>
+          </Link>
         </div>
-
-        <div className="">
-
+        <div className="mt-15 flex bg-black w-full h-auto flex-col
+          items-center justify-center text-white text-center pt-15
+          pb-15">
+          <img src="/images/logo.svg" alt="logo" />
+          <div className="flex gap-7 cursor-pointer">
+            <Link href={'https://www.facebook.com/account/email/signup'}><img src="/images/icon-facebook.svg" alt="facebook-icon" /></Link>
+            <Link href={'https://www.x.com//account/email/signup'}><img src="/images/icon-twitter.svg" alt="twitter-icon" /></Link>
+            <Link href={'https://www.pintrest.com/account/email/signup'}><img src="/images/icon-pinterest.svg" alt="pinterest-icon" /></Link>
+            <Link href={'https://www.x.com//account/email/signup'}><img src="/images/icon-instagram.svg" alt="instagram-icon" /></Link>
+          </div>
+          <p>© 2023 Loopstudios. All rights reserved.</p>
         </div>
       </div>
     </div>
