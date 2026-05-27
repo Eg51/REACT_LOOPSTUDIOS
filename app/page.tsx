@@ -22,8 +22,8 @@ export default function Home() {
           that bind to their brand.
         </p>
         <p className="flex text-center justify-center text-[black]
-          text-200 pt-4 pl-11 pr-11 pb-10">
-            OUR CREATIONS
+          text-[30px] pt-4 pl-11 pr-11 pb-10">
+          OUR CREATIONS
         </p>
       </div>
     </div>
