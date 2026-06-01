@@ -7,6 +7,25 @@ export default function Home() {
     <div className="flex items-ccenter justify-center">
       <div className="flex flex-col h-auto w-full">
         <img src="/images/mobile/image-hero.jpg" className="bg-auto pb-18"/>
+
+        <div className="absolute flex p-11 justify-between
+          w-full max-w-['375px']"
+          >
+           <Image
+            src="/images/logo.svg"
+            alt="logo"
+            width={130}
+            height={60}
+            />
+           <Image
+            src="/images/icon-hamburger.svg"
+            alt="logo"
+            width={30}
+            height={60}
+            />
+        </div>
+       
+
         <img src="/images/mobile/image-interactive.jpg" alt="interactive_image"
         className="flex pt-5 pl-6 pr-6 pb-"/>
         <h1 className="flex text-center justify-center
@@ -54,12 +73,9 @@ export default function Home() {
           alt='image-curiousity'
           className='bg-auto pb-1 pl-5 p-5 h-50 w-full'/>
 
-        <div className='text-black'>
-          <img src='/images/mobile/image-fisheye.jpg'
-            alt='image-fisheye'
-            className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
-          
-        </div>
+        <img src='/images/mobile/image-fisheye.jpg'
+          alt='image-fisheye'
+          className='bg-auto pb-9 pl-5 p-5 h-50 w-full'/>
         
         <div className="flex items-center justify-center">
           <Link href={'https://www.google.com/search'}>
