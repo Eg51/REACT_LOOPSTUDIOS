@@ -19,8 +19,11 @@ export default function Home() {  // injected code start
            <Image
             src="/images/logo.svg"
             alt="logo"
-            width={130}
-            height={60}
+            priority
+            width={100}
+            height={20}
+            className='maxWidth-100% h-auto'
+
             />
 
             <Navbar />

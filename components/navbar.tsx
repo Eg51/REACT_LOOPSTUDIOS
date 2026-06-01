@@ -9,20 +9,23 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="p-4 border-b">
+    <nav className="p-4">
       <button
         onClick={toggleMenu}
-        className="text-2xl"
+        className="text-4xl text-white"
         aria-label="Toggle menu"
       >
         ☰
       </button>
 
       {isOpen && (
-        <div className="mt-4 flex flex-col gap-2">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
+        <div className="mt-4 absolute t-0 l-20 w-full bg-black text-white p-4">
+            
+            <div  className="mr-400 bg-amber-400 flex flex-col ">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>       
+            </div>  
         </div>
       )}
     </nav>
