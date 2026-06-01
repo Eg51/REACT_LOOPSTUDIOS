@@ -1,11 +1,13 @@
+"use client";
 import { Fullscreen } from "@boxicons/react";
 import Image from "next/image";
 import Link from 'next/link'
-import {ShoppingBag, User, Heart, ClipboardList, MessageCircle, Settings, ChevronRight,} from "lucide-react"; // injected code start
+import {ShoppingBag, User, Heart, ClipboardList, MessageCircle, Settings, ChevronRight,} from "lucide-react"; // injected code  import start/stop
+import Navbar from '@/components/navbar'
 
 
 
-export default function Home() {
+export default function Home() {  // injected code start
   return (
     <>
     <div className="flex items-center justify-center">
@@ -20,13 +22,17 @@ export default function Home() {
             width={130}
             height={60}
             />
-           <Image
+
+            <Navbar />
+           {/* <Image
             src="/images/icon-hamburger.svg"
             alt="logo"
             width={30}
             height={60}
-            className="cursor-pointer md:hidden"
-            />
+            className="cursor-pointer sm:hidden"
+            /> */}
+
+          
         </div>
         <img src="/images/mobile/image-interactive.jpg" alt="interactive_image"
         className="flex pt-5 pl-6 pr-6 pb-"/>
@@ -110,7 +116,7 @@ export default function Home() {
       </div>
     </div>
 
-  <div className="p-4">
+  <div className="p-4 hidden">
       <Link
         href="/"
         className="mb-2 flex items-center justify-between rounded-2xl px-4 py-4 hover:bg-gray-50"
