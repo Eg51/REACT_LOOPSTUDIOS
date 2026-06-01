@@ -24,8 +24,6 @@ export default function Home() {
             height={60}
             />
         </div>
-       
-
         <img src="/images/mobile/image-interactive.jpg" alt="interactive_image"
         className="flex pt-5 pl-6 pr-6 pb-"/>
         <h1 className="flex text-center justify-center
