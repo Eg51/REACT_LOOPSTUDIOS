@@ -11,19 +11,19 @@ export default function Home() {  // injected code start
   return (
     <>
     <div className="flex items-center justify-center">
-      <div className="flex flex-col h-auto w-full">
-        <img src="/images/mobile/image-hero.jpg" className="bg-auto pb-18"/>
-        <div className="absolute flex p-11 justify-between
+      <div className="flex flex-col h-auto w-full ml-0">
+        <img src="/images/mobile/image-hero.jpg"
+          className="bg-auto w-full h-1/5"/>
+        <div className="absolute flex  justify-even
           w-full max-w-['375px']"
           >
            <Image
             src="/images/logo.svg"
             alt="logo"
             priority
-            width={100}
-            height={20}
-            className='maxWidth-100% h-auto'
-
+            width={90}
+            height={-20}
+            className='w-[120px] pt-9 pl-5 h-[54px] z-1000'
             />
 
             <Navbar />
