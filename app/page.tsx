@@ -16,7 +16,7 @@ export default function Home() {  // injected code start
         <img src="/images/mobile/image-hero.jpg"
           className="bg-auto object-cover w-full h-1/5 pb-25"/>
         <div className="absolute pt-10 w-full flex object-cover 
-          items-center jutify-center sm:hidden z-10 top-0"
+          items-center jutify-center lg:hidden z-10 top-0"
           >
             <Navbar />
            {/* <Image
