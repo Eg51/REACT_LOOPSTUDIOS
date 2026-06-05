@@ -4,28 +4,20 @@ import Image from "next/image";
 import Link from 'next/link'
 import {ShoppingBag, User, Heart, ClipboardList, MessageCircle, Settings, ChevronRight,} from "lucide-react"; // injected code  import start/stop
 import Navbar from '@/components/navbar'
-
+import Loopstudios from '@/components/loopstudios'
 
 
 export default function Home() {  // injected code start
   return (
     <>
     <div className="flex items-center justify-center">
-      <div className="flex flex-col h-auto w-full ml-0">
+      <div className=" flex items-cnter justify-center
+        flex-col h-auto w-full">
         <img src="/images/mobile/image-hero.jpg"
-          className="bg-auto w-full h-1/5"/>
-        <div className="absolute flex  justify-even
-          w-full max-w-['375px']"
+          className="bg-auto object-cover w-full h-1/5 pb-25"/>
+        <div className="absolute pt-10 w-full flex object-cover 
+          items-center jutify-center sm:hidden z-10 top-0"
           >
-           <Image
-            src="/images/logo.svg"
-            alt="logo"
-            priority
-            width={90}
-            height={-20}
-            className='w-[120px] pt-9 pl-5 h-[54px] z-1000'
-            />
-
             <Navbar />
            {/* <Image
             src="/images/icon-hamburger.svg"
@@ -33,9 +25,7 @@ export default function Home() {  // injected code start
             width={30}
             height={60}
             className="cursor-pointer sm:hidden"
-            /> */}
-
-          
+            /> */}        
         </div>
         <img src="/images/mobile/image-interactive.jpg" alt="interactive_image"
         className="flex pt-5 pl-6 pr-6 pb-"/>
