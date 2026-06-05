@@ -1,5 +1,7 @@
+"use client";
 import { useState } from "react";
 import Loopstudios from '@/components/loopstudios'
+import Link from 'next/link'
 
 
 export default function Navbar() {
@@ -10,29 +12,29 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="text-white flex
-        w-full object-cover pb-[100%]
+    <nav className="text-white whitespace-nowrap
+        w-full object-cover pb-[100%] flex 
         justify-between items-center p-4
        ">
       <Loopstudios/>
-      <button
-        onClick={toggleMenu}
-        className="text-4xl z-10 pr-4"
-        aria-label="Toggle menu"
-      > 
-       ☰
-      </button>
+        <button
+          onClick={toggleMenu}
+          className="text-4xl z-10 pr-4"
+          aria-label="Toggle menu"
+        > 
+        ☰
+        </button>
 
       {isOpen && (
-        <div className=" w-full h-auto  object-cover
-          pt-50 flex flex-col gap-10 absolute top-0
-          right-0 bg-black items center  pb-[100%] justify-center">
-          <a className="flex pl-15" href="/">ABOUT</a>
-          <a className="flex pl-15" href="/">CAREERS</a>
-          <a className="flex pl-15" href="/">EVENTS</a>
-          <a className="flex pl-15" href="/">PRODUCTS</a>
-          <a className="flex pl-15" href="/c">SUPPORT</a> 
-        </div>
+      <div className=" w-full h-auto object-cover
+        pt-50 flex flex-col gap-10 absolute top-0
+        right-0 bg-black items center  pb-[100%] justify-center">
+        <a className="flex pl-7" href="/">ABOUT</a>
+        <a className="flex pl-7" href="/">CAREERS</a>
+        <a className="flex pl-7" href="/">EVENTS</a>
+        <a className="flex pl-7" href="/">PRODUCTS</a>
+        <a className="flex pl-7" href="/c">SUPPORT</a> 
+      </div>
       )}
     </nav>
   );
